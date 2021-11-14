@@ -1,0 +1,104 @@
+/* base */
+:root {
+  --color-dark: #021f31;
+  --color-yellow: #fcb130;
+  --color-blue: #0186c0;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  background-color: white;
+}
+
+/* layout */
+.grid-container {
+  margin: 0 auto;
+  display: grid;
+  grid-template-areas:
+    "header   header        header        header"
+    ".        section-one   section-one        ."
+    ".        main          aside              ."
+    ".        section-two   section-two        ."
+    "footer   footer        footer        footer";
+  grid-template-columns: 1fr minmax(400px, 700px) minmax(300px, auto) 1fr;
+  gap: 1rem;
+}
+.grid-header { grid-area: header; }
+.grid-section-one { grid-area: section-one; }
+.grid-main { grid-area: main; }
+.grid-aside { grid-area: aside; }
+.grid-section-two { grid-area: section-two; }
+.grid-footer { grid-area: footer; }
+
+/* header */
+.grid-header {
+  background-color: var(--color-dark);
+  padding: 1.5rem;
+}
+.grid-header > nav > a {
+  color: whitesmoke;
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 1.5rem;
+}
+.grid-header > nav > a.active { text-decoration: underline; }
+.site-logo > span {
+  display: inline-block;
+  min-width: 0.5rem;
+}
+.logo-yellow { background-color: var(--color-yellow); }
+.logo-blue { background-color: var(--color-blue); margin-right: 0.75rem; }
+
+/* sidebar (aside) */
+.grid-aside > div { margin-bottom: 1rem; }
+.grid-aside > div:last-child { margin-bottom: 0; }
+
+/* footer */
+.grid-footer {
+  background-color: var(--color-dark);
+  padding: 1.5rem;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 87.5%;
+}
+
+/* ad slots */
+.slot-container {
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 87.5%;
+  background-color: aliceblue;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+/* utils */
+.content-placeholder {
+  background-color: whitesmoke;
+  text-align: center;
+  color: gray;
+  font-size: 87.5%;
+}
+.content-placeholder ~ .content-placeholder { margin-top: 1rem; }
+.content-placeholder.padded-large {padding: 40vh 0; }
+.content-placeholder.padded-medium {padding: 20vh 0; }
+.content-placeholder.padded-small {padding: 10vh 0; }
+
+/* media queries */
+@media (max-width: 840px) {
+  .grid-container {
+    grid-template-areas:
+      "header     "
+      "section-one"
+      "main       "
+      "aside      "
+      "section-two"
+      "footer     ";
+    grid-template-columns: auto;
+  }
+}

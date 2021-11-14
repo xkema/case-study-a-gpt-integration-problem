@@ -1,0 +1,21 @@
+{
+  "name": "case-study-a-gpt-integration-problem",
+  "version": "0.1.0",
+  "description": "A case study to integrate GPT library to a website as a 3rd-party javascript library",
+  "scripts": {
+    "start": "browser-sync start --server 'docs' --directory --files 'docs'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xkema/case-study-a-gpt-integration-problem.git"
+  },
+  "author": "Kemal Yılmaz <xkema@tutanota.com> (https://xkema.github.io/)",
+  "bugs": {
+    "url": "https://github.com/xkema/case-study-a-gpt-integration-problem/issues"
+  },
+  "homepage": "https://github.com/xkema/case-study-a-gpt-integration-problem#readme",
+  "devDependencies": {
+    "browser-sync": "^2.27.7"
+  }
+}
