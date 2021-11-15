@@ -3,46 +3,54 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A case study to integrate GPT library to a website as a 3rd-party javascript library">
+  <meta itemprop="layout" content="homepage">
   <title>Homepage | Case Study - A GPT Integration Problem</title>
   <link rel="stylesheet" href="assets/normalize.css">
   <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-  <div class="grid-container">
+  <div class="grid-container-home">
     <header class="grid-header">
       <nav>
-        <a href="./index.html" class="site-logo active">
+        <a href="./index.html" class="site-logo active" title="Homepage">
           <span class="logo-yellow">&nbsp;</span><span class="logo-blue">&nbsp;</span>Home
         </a>
-        <a href="./index-detail.html">Detail Page</a>
+        <a href="./index-detail.html" title="Detail Page">Detail Page</a>
       </nav>
     </header>
     <section class="grid-section-one">
-      <!-- slot 1 -->
-      <div class="slot-container" id="slot-1">#slot-1</div>
+      <!-- slot home 1 -->
+      <div class="slot-container">
+        <div id="slot-home-1">#slot-home-1</div>
+      </div>
+    </section>
+    <section class="grid-slider">
+      <div class="content-placeholder padded-medium">slider content</div>
     </section>
     <main class="grid-main">
-      <div class="content-placeholder padded-large">main content 1</div>
-      <div class="content-placeholder padded-small">main content 2</div>
-      <div class="content-placeholder padded-medium">main content 3</div>
+      <div class="content-placeholder padded-small">main content 1</div>
+      <div class="content-placeholder padded-medium">main content 2</div>
     </main>
     <aside class="grid-aside">
       <div class="aside-section-one">
-        <!-- slot 2 -->
-        <div class="slot-container" id="slot-2">#slot-2</div>
+        <!-- slot home 2 -->
+        <div class="slot-container">
+          <div id="slot-home-2">#slot-home-2</div>
+        </div>
       </div>
       <div class="aside-section-content">
         <div class="content-placeholder padded-medium">sidebar content 1</div>
-        <div class="content-placeholder padded-medium">sidebar content 2</div>
-      </div>
-      <div class="aside-section-two">
-        <!-- slot 3 -->
-        <div class="slot-container" id="slot-3">#slot-3</div>
       </div>
     </aside>
+    <section class="grid-cards">
+      <div class="content-placeholder padded-medium">cards content</div>
+    </section>
     <section class="grid-section-two">
-      <!-- slot 4 -->
-      <div class="slot-container" id="slot-4">#slot-4</div>
+      <!-- slot home 3 -->
+      <div class="slot-container">
+        <div id="slot-home-3">#slot-home-3</div>
+      </div>
     </section>
     <footer class="grid-footer">
       <span>Case Study - A GPT Integration Problem</span>

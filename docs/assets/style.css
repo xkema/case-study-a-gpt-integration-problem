@@ -17,7 +17,21 @@ body {
 }
 
 /* layout */
-.grid-container {
+.grid-container-home {
+  margin: 0 auto;
+  display: grid;
+  grid-template-areas:
+    "header   header        header        header"
+    ".        section-one   section-one        ."
+    ".        slider        slider             ."
+    ".        main          aside              ."
+    ".        cards         cards              ."
+    ".        section-two   section-two        ."
+    "footer   footer        footer        footer";
+  grid-template-columns: 1fr minmax(400px, 700px) minmax(300px, auto) 1fr;
+  gap: 1rem;
+}
+.grid-container-detail {
   margin: 0 auto;
   display: grid;
   grid-template-areas:
@@ -31,8 +45,10 @@ body {
 }
 .grid-header { grid-area: header; }
 .grid-section-one { grid-area: section-one; }
+.grid-slider { grid-area: slider; }
 .grid-main { grid-area: main; }
 .grid-aside { grid-area: aside; }
+.grid-cards { grid-area: cards; }
 .grid-section-two { grid-area: section-two; }
 .grid-footer { grid-area: footer; }
 
@@ -70,11 +86,21 @@ body {
 
 /* ad slots */
 .slot-container {
+  position: relative;
   font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  font-size: 87.5%;
+  font-size: 75%;
   background-color: aliceblue;
   padding: 1rem 0;
   text-align: center;
+}
+.slot-container:before {
+  position: absolute;
+  right: 4px;
+  bottom: 4px;
+  content: "slot-container";
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 75%;
+  color: lightsteelblue;
 }
 
 /* utils */
@@ -91,7 +117,19 @@ body {
 
 /* media queries */
 @media (max-width: 840px) {
-  .grid-container {
+  .grid-container-home {
+    grid-template-areas:
+      "header     "
+      "section-one"
+      "slider     "
+      "main       "
+      "aside      "
+      "cards      "
+      "section-two"
+      "footer     ";
+    grid-template-columns: auto;
+  }
+  .grid-container-detail {
     grid-template-areas:
       "header     "
       "section-one"
