@@ -68,8 +68,8 @@ body {
   display: inline-block;
   min-width: 0.5rem;
 }
-.logo-yellow { background-color: var(--color-yellow); }
-.logo-blue { background-color: var(--color-blue); margin-right: 0.75rem; }
+.logo-blue { background-color: var(--color-blue); }
+.logo-yellow { background-color: var(--color-yellow); margin-right: 0.75rem; }
 
 /* sidebar (aside) */
 .grid-aside > div { margin-bottom: 1rem; }
@@ -90,7 +90,8 @@ body {
   font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   font-size: 75%;
   background-color: aliceblue;
-  padding: 1rem 0;
+  color: cornflowerblue;
+  padding: 2rem 0;
   text-align: center;
 }
 .slot-container:before {
