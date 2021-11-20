@@ -1,6 +1,6 @@
 // site main script 
 document.addEventListener('DOMContentLoaded', () => {
-  // find layout name for current page
+  // 📌 pin // layout names are the connections between pages and GPT slots defined on a page
   let layoutName = 'unknown';
   const layoutMetaElement = document.querySelector('meta[itemprop=layout]');
   if(layoutMetaElement !== null) {
