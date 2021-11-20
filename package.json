@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "A case study to integrate GPT library to a website as a 3rd-party javascript library",
   "scripts": {
-    "start": "browser-sync start --server 'docs' --directory --files 'docs' --no-open",
+    "start": "browser-sync start --server '.' --directory --files '.' --no-open",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

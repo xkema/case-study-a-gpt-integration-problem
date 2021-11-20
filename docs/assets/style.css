@@ -117,7 +117,7 @@ body {
 .content-placeholder.padded-small {padding: 10vh 0; }
 
 /* media queries */
-@media (max-width: 840px) {
+@media (max-width: 750px) {
   .grid-container-home {
     grid-template-areas:
       "header     "
