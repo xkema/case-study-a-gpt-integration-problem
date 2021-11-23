@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A case study to integrate GPT library to a website as a 3rd-party javascript library">
+  <meta itemprop="layout" content="detail-page">
+  <title>Detail Page | Case Study - A GPT Integration Problem</title>
+  <link rel="icon" href="../assets/favicon-case-study-2021-with-slots.png" type="image/x-icon">
+  <link rel="stylesheet" href="../assets/normalize.css">
+  <link rel="stylesheet" href="../assets/style.css">
+  <script src="../assets/site.js"></script>
+  <!-- 📌 pin // gpt library & command array-->
+  <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+  <script>window.googletag = window.googletag || { cmd: [] };</script>
+  <!-- 🔚 pin_end // gpt library & command array-->
+  <!-- 📌 pin // gpt slot definitions -->
+  <script>
+    googletag.cmd.push(function() {
+      googletag.defineSlot('/567914328/case-study-2021/detail-page', [970, 250], 'slot-detail-1').addService(googletag.pubads());
+      googletag.defineSlot('/567914328/case-study-2021/detail-page', [300, 250], 'slot-detail-2').addService(googletag.pubads());
+      googletag.defineSlot('/567914328/case-study-2021/detail-page', [300, 250], 'slot-detail-3').addService(googletag.pubads());
+      googletag.defineSlot('/567914328/case-study-2021/detail-page', [728, 90], 'slot-detail-4').addService(googletag.pubads());
+      googletag.enableServices();
+    });
+  </script>
+  <!-- 🔚 pin_end // gpt slot definitions -->
+</head>
+<body>
+  <div class="grid-container-detail">
+    <header class="grid-header">
+      <nav>
+        <a href="./index.html" class="site-logo" title="Homepage">
+          <span class="logo-blue">&nbsp;</span><span class="logo-yellow">&nbsp;</span>Home
+        </a>
+        <a href="./index-detail.html" class="active" title="Detail Page">Detail Page</a>
+      </nav>
+    </header>
+    <section class="grid-section-one">
+      <!-- slot detail 1 -->
+      <div class="slot-container">
+        <div id="slot-detail-1">
+          <!-- 📌 pin // gpt detail slot 1 -->
+          <script>
+            googletag.cmd.push(function() {
+              googletag.display('slot-detail-1');
+            });
+          </script>
+          <!-- 🔚 pin_end // gpt detail slot 1 -->
+        </div>
+      </div>
+    </section>
+    <main class="grid-main">
+      <div class="content-placeholder padded-large">main content 1</div>
+      <div class="content-placeholder padded-large">main content 2</div>
+    </main>
+    <aside class="grid-aside">
+      <div class="aside-section-one">
+        <!-- slot detail 2 -->
+        <div class="slot-container">
+          <div id="slot-detail-2">
+            <!-- 📌 pin // gpt detail slot 2 -->
+            <script>
+              googletag.cmd.push(function() {
+                googletag.display('slot-detail-2');
+              });
+            </script>
+            <!-- 🔚 pin_end // gpt detail slot 2 -->
+          </div>
+        </div>
+      </div>
+      <div class="aside-section-content">
+        <div class="content-placeholder padded-medium">sidebar content 1</div>
+        <div class="content-placeholder padded-small">sidebar content 2</div>
+      </div>
+      <div class="aside-section-two">
+        <!-- slot detail 3 -->
+        <div class="slot-container">
+          <div id="slot-detail-3">
+            <!-- 📌 pin // gpt detail slot 3 -->
+            <script>
+              googletag.cmd.push(function() {
+                googletag.display('slot-detail-3');
+              });
+            </script>
+            <!-- 🔚 pin_end // gpt detail slot 3 -->
+          </div>
+        </div>
+      </div>
+    </aside>
+    <section class="grid-section-two">
+      <!-- slot detail 4 -->
+      <div class="slot-container">
+        <div id="slot-detail-4">
+          <!-- 📌 pin // gpt detail slot 4 -->
+          <script>
+            googletag.cmd.push(function() {
+              googletag.display('slot-detail-4');
+            });
+          </script>
+          <!-- 🔚 pin_end // gpt detail slot 4 -->
+        </div>
+      </div>
+    </section>
+    <footer class="grid-footer">
+      <span>Case Study - A GPT Integration Problem</span>
+    </footer>
+  </div>
+</body>
+</html>
