@@ -20,6 +20,16 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
 }
 
+code {
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  background-color: dimgray;
+  color: white;
+  display: inline-block;
+  padding: 1px 0.5rem;
+  font-size: 87.5%;
+  border-radius: 10px;
+}
+
 /* layout */
 .grid-container-home {
   margin: 0 auto;
@@ -90,9 +100,10 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Directory Listing */
 .directory-listing-wrapper { text-align: center; padding: 2rem; }
-.directory-listing-wrapper ul { list-style: none; margin: 0; padding: 0; }
-.directory-listing-wrapper li { display: block; margin-bottom: 1rem; }
-.grid-header > nav > a.directory-listing-link { padding: 0 0.5rem; color: lightgray; }
+.directory-list { list-style: none; margin: 0; padding: 0; }
+.directory-list li { display: block; margin-bottom: 1.5rem; }
+.directory-list a { display: block; padding: 0 1rem; color: steelblue; }
+.directory-list span { display: block; margin-top: 0.5rem; font-size: 87.5%; color: dimgray; }
 
 /* ad slots */
 .slot-container {
