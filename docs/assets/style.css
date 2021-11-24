@@ -16,6 +16,10 @@ body {
   background-color: white;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+}
+
 /* layout */
 .grid-container-home {
   margin: 0 auto;
@@ -83,6 +87,12 @@ body {
   text-align: center;
   font-size: 87.5%;
 }
+
+/* Directory Listing */
+.directory-listing-wrapper { text-align: center; padding: 2rem; }
+.directory-listing-wrapper ul { list-style: none; margin: 0; padding: 0; }
+.directory-listing-wrapper li { display: block; margin-bottom: 1rem; }
+.grid-header > nav > a.directory-listing-link { padding: 0 0.5rem; color: lightgray; }
 
 /* ad slots */
 .slot-container {
