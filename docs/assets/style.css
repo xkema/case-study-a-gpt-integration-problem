@@ -1,8 +1,6 @@
 /* base */
 :root {
-  --color-dark: #021f31;
-  --color-yellow: #fcb130;
-  --color-blue: #0186c0;
+  --color-dark: #0b2228;
 }
 *,
 *::before,
@@ -16,10 +14,7 @@ body {
   background-color: white;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 500;
-}
-
+h1, h2, h3, h4, h5, h6 { font-weight: 500; }
 code {
   font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   background-color: dimgray;
@@ -77,13 +72,7 @@ code {
   display: inline-block;
   margin-right: 1.5rem;
 }
-.grid-header > nav > a.active { text-decoration: underline; }
-.site-logo > span {
-  display: inline-block;
-  min-width: 0.5rem;
-}
-.logo-blue { background-color: var(--color-blue); }
-.logo-yellow { background-color: var(--color-yellow); margin-right: 0.75rem; }
+.grid-header > nav > a.active { outline: 1px dashed whitesmoke; outline-offset: 0.5rem; border-radius: 0.5rem; }
 
 /* sidebar (aside) */
 .grid-aside > div { margin-bottom: 1rem; }
