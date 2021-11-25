@@ -17,6 +17,15 @@
   <!-- 📌 pin // always|auto-enabled mock module -->
   <script src="../assets/gpt-mock.js"></script>
   <!-- 🔚 pin_end // always|auto-enabled mock module -->
+  <!-- 📌 pin // response logger for the slots -->
+  <script>
+    googletag.cmd.push(() => {
+      googletag.pubads().addEventListener('slotRenderEnded', (event) => {
+        console.log(`%cdebug ::`, `color:blue;font-weight:bold;`, `${event.slot.getAdUnitPath()}:${!event.isEmpty} - div: #${event.slot.getSlotElementId()} - size: ${event.size.join('x')}`);
+      });
+    });
+  </script>
+  <!-- 🔚 pin_end // response logger for the slots -->
   <!-- 📌 pin // gpt slot definitions -->
   <script>
     googletag.cmd.push(function() {
