@@ -6,10 +6,18 @@
   <meta name="description" content="A case study to integrate GPT library to a website as a 3rd-party javascript library">
   <meta itemprop="layout" content="detail-page">
   <title>Detail Page | Case Study - A GPT Integration Problem</title>
-  <link rel="icon" href="../assets/favicons/favicon-01-without-gpt.png" type="image/x-icon">
+  <link rel="icon" href="../assets/favicons/favicon-04-with-webpack-applicant.png" type="image/x-icon">
   <link rel="stylesheet" href="../assets/normalize.css">
   <link rel="stylesheet" href="../assets/style.css">
   <script src="../assets/site.js"></script>
+  <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+  <script>window.googletag = window.googletag || { cmd: [] };</script>
+  <!-- 📌 :PIN: Enable this to activate mock module without a URL paramater -->
+  <!-- <script>window['H0rWrXR3crg'] = { gptMockEnabled: true };</script> -->
+  <!-- 📌 :PIN: Enable mock module if you want to use an ad blocker -->
+  <!-- <script src="../assets/gpt-mock.js"></script> -->
+  <!-- 📌 :PIN: insert your webback bundle here -->
+  <!-- <script src="path/to/your/webpack/bundle/js"></script> -->
 </head>
 <body>
   <div class="grid-container-detail">
@@ -22,7 +30,7 @@
     </header>
     <section class="grid-section-one">
       <div class="slot-container">
-        <div id="slot-detail-1">#slot-detail-1</div>
+        <div id="slot-detail-1"><!-- 📌 :PIN: Use this div to inject "#slot-detail-1" --></div>
       </div>
     </section>
     <main class="grid-main">
@@ -32,7 +40,7 @@
     <aside class="grid-aside">
       <div class="aside-section-one">
         <div class="slot-container">
-          <div id="slot-detail-2">#slot-detail-2</div>
+          <div id="slot-detail-2"><!-- 📌 :PIN: Use this div to inject "#slot-detail-2" --></div>
         </div>
       </div>
       <div class="aside-section-content">
@@ -41,13 +49,13 @@
       </div>
       <div class="aside-section-two">
         <div class="slot-container">
-          <div id="slot-detail-3">#slot-detail-3</div>
+          <div id="slot-detail-3"><!-- 📌 :PIN: Use this div to inject "#slot-detail-3" --></div>
         </div>
       </div>
     </aside>
     <section class="grid-section-two">
       <div class="slot-container">
-        <div id="slot-detail-4">#slot-detail-4</div>
+        <div id="slot-detail-4"><!-- 📌 :PIN: Use this div to inject "#slot-detail-4" --></div>
       </div>
     </section>
     <footer class="grid-footer">

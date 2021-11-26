@@ -88,11 +88,12 @@ code {
 }
 
 /* Directory Listing */
-.directory-listing-wrapper { text-align: center; padding: 2rem; }
+.directory-listing-wrapper { text-align: center; padding: 2rem; max-width: 560px; margin: 0 auto; }
 .directory-list { list-style: none; margin: 0; padding: 0; }
 .directory-list li { display: block; margin-bottom: 1.5rem; }
 .directory-list a { display: block; padding: 0 1rem; color: steelblue; }
 .directory-list span { display: block; margin-top: 0.5rem; font-size: 87.5%; color: dimgray; }
+.applicant-workspace { border: 2px dashed lightgray; padding: 1rem; background-color: whitesmoke; }
 
 /* ad slots */
 .slot-container {

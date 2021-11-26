@@ -1,10 +1,10 @@
-// an always|auto-enabled gpt mock object that enabled by a global flag "window['H0rWrXR3crg']['gptMockEnabled']" or a search param "?mock=1" or "?mock=true"
+// an always or auto-enabled gpt mock object that is enabled by a global flag "window['H0rWrXR3crg']['gptMockEnabled']" or a search param "?mock=1" or "?mock=true"
 if((window['H0rWrXR3crg'] && window['H0rWrXR3crg']['gptMockEnabled'] === true)  || window.location.search.split(/[?&]/).findIndex((queryParam) => /^mock=(?:true|1)$/.test(queryParam)) !== -1) {
   // a reference to the page slots
   const __slots = [];
   // a reference to the slot events
   const __events = [];
-  // "pubads_impl_***.js" library may evaluate this mock with non-mock objects if, mock module is enabled but there is no ad blocker usage
+  // "pubads_impl_***.js" library or another GPT mock utility may evaluate this mock with non-mock objects if, mock module is enabled but there is no ad blocker usage
   const gptMock = {
     cmd: {
       push: (callback) => {

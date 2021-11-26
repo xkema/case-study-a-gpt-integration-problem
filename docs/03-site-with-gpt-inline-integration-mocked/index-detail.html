@@ -10,11 +10,9 @@
   <link rel="stylesheet" href="../assets/normalize.css">
   <link rel="stylesheet" href="../assets/style.css">
   <script src="../assets/site.js"></script>
-  <!-- 📌 pin // always|auto-enabled mock module -->
+  <!-- 👇 :HINT: With this global flag, mock behaviour will always enable. -->
   <script>window['H0rWrXR3crg'] = { gptMockEnabled: true };</script>
   <script src="../assets/gpt-mock.js"></script>
-  <!-- 🔚 pin_end // always|auto-enabled mock module -->
-  <!-- 📌 pin // response logger for the slots -->
   <script>
     googletag.cmd.push(() => {
       googletag.pubads().addEventListener('slotRenderEnded', (event) => {
@@ -22,8 +20,6 @@
       });
     });
   </script>
-  <!-- 🔚 pin_end // response logger for the slots -->
-  <!-- 📌 pin // gpt slot definitions -->
   <script>
     googletag.cmd.push(function() {
       googletag.defineSlot('/567914328/case-study-2021/detail-page', [970, 250], 'slot-detail-1').addService(googletag.pubads());
@@ -33,7 +29,6 @@
       googletag.enableServices();
     });
   </script>
-  <!-- 🔚 pin_end // gpt slot definitions -->
 </head>
 <body>
   <div class="grid-container-detail">
@@ -45,16 +40,13 @@
       </nav>
     </header>
     <section class="grid-section-one">
-      <!-- slot detail 1 -->
       <div class="slot-container">
         <div id="slot-detail-1">
-          <!-- 📌 pin // gpt detail slot 1 -->
           <script>
             googletag.cmd.push(function() {
               googletag.display('slot-detail-1');
             });
           </script>
-          <!-- 🔚 pin_end // gpt detail slot 1 -->
         </div>
       </div>
     </section>
@@ -64,16 +56,13 @@
     </main>
     <aside class="grid-aside">
       <div class="aside-section-one">
-        <!-- slot detail 2 -->
         <div class="slot-container">
           <div id="slot-detail-2">
-            <!-- 📌 pin // gpt detail slot 2 -->
             <script>
               googletag.cmd.push(function() {
                 googletag.display('slot-detail-2');
               });
             </script>
-            <!-- 🔚 pin_end // gpt detail slot 2 -->
           </div>
         </div>
       </div>
@@ -82,31 +71,25 @@
         <div class="content-placeholder padded-small">sidebar content 2</div>
       </div>
       <div class="aside-section-two">
-        <!-- slot detail 3 -->
         <div class="slot-container">
           <div id="slot-detail-3">
-            <!-- 📌 pin // gpt detail slot 3 -->
             <script>
               googletag.cmd.push(function() {
                 googletag.display('slot-detail-3');
               });
             </script>
-            <!-- 🔚 pin_end // gpt detail slot 3 -->
           </div>
         </div>
       </div>
     </aside>
     <section class="grid-section-two">
-      <!-- slot detail 4 -->
       <div class="slot-container">
         <div id="slot-detail-4">
-          <!-- 📌 pin // gpt detail slot 4 -->
           <script>
             googletag.cmd.push(function() {
               googletag.display('slot-detail-4');
             });
           </script>
-          <!-- 🔚 pin_end // gpt detail slot 4 -->
         </div>
       </div>
     </section>

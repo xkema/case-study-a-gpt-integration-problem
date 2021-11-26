@@ -4,20 +4,19 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="A case study to integrate GPT library to a website as a 3rd-party javascript library">
+  <!-- 📦 :BUNDLE: 👇 :HINT: This meta tag is a unique identifier for different page layouts. -->
   <meta itemprop="layout" content="detail-page">
   <title>Detail Page | Case Study - A GPT Integration Problem</title>
   <link rel="icon" href="../assets/favicons/favicon-02-with-gpt-inline.png" type="image/x-icon">
   <link rel="stylesheet" href="../assets/normalize.css">
   <link rel="stylesheet" href="../assets/style.css">
   <script src="../assets/site.js"></script>
-  <!-- 📌 pin // gpt library & command array-->
+  <!-- 👇 :HINT: These two lines are; the GPT library and cmd array provided by the library. -->
   <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
   <script>window.googletag = window.googletag || { cmd: [] };</script>
-  <!-- 🔚 pin_end // gpt library & command array-->
-  <!-- 📌 pin // always|auto-enabled mock module -->
+  <!-- 👇 :HINT: A mock module to mimic the GPT library when needed. -->
   <script src="../assets/gpt-mock.js"></script>
-  <!-- 🔚 pin_end // always|auto-enabled mock module -->
-  <!-- 📌 pin // response logger for the slots -->
+  <!-- 📦 :BUNDLE: 👇 :HINT: This block logs ad responses from Ad Manager for each ad slot on the page. -->
   <script>
     googletag.cmd.push(() => {
       googletag.pubads().addEventListener('slotRenderEnded', (event) => {
@@ -25,8 +24,7 @@
       });
     });
   </script>
-  <!-- 🔚 pin_end // response logger for the slots -->
-  <!-- 📌 pin // gpt slot definitions -->
+  <!-- 📦 :BUNDLE: 👇 :HINT: This is how we define display ad slots on a page. -->
   <script>
     googletag.cmd.push(function() {
       googletag.defineSlot('/567914328/case-study-2021/detail-page', [970, 250], 'slot-detail-1').addService(googletag.pubads());
@@ -36,7 +34,6 @@
       googletag.enableServices();
     });
   </script>
-  <!-- 🔚 pin_end // gpt slot definitions -->
 </head>
 <body>
   <div class="grid-container-detail">
@@ -48,16 +45,14 @@
       </nav>
     </header>
     <section class="grid-section-one">
-      <!-- slot detail 1 -->
       <div class="slot-container">
         <div id="slot-detail-1">
-          <!-- 📌 pin // gpt detail slot 1 -->
+          <!-- 📦 :BUNDLE: 👇 :HINT: Display block for "slot-detail-1". -->
           <script>
             googletag.cmd.push(function() {
               googletag.display('slot-detail-1');
             });
           </script>
-          <!-- 🔚 pin_end // gpt detail slot 1 -->
         </div>
       </div>
     </section>
@@ -67,16 +62,14 @@
     </main>
     <aside class="grid-aside">
       <div class="aside-section-one">
-        <!-- slot detail 2 -->
         <div class="slot-container">
           <div id="slot-detail-2">
-            <!-- 📌 pin // gpt detail slot 2 -->
+            <!-- 📦 :BUNDLE: 👇 :HINT: Display block for "slot-detail-2". -->
             <script>
               googletag.cmd.push(function() {
                 googletag.display('slot-detail-2');
               });
             </script>
-            <!-- 🔚 pin_end // gpt detail slot 2 -->
           </div>
         </div>
       </div>
@@ -85,31 +78,27 @@
         <div class="content-placeholder padded-small">sidebar content 2</div>
       </div>
       <div class="aside-section-two">
-        <!-- slot detail 3 -->
         <div class="slot-container">
           <div id="slot-detail-3">
-            <!-- 📌 pin // gpt detail slot 3 -->
+            <!-- 📦 :BUNDLE: 👇 :HINT: Display block for "slot-detail-3". -->
             <script>
               googletag.cmd.push(function() {
                 googletag.display('slot-detail-3');
               });
             </script>
-            <!-- 🔚 pin_end // gpt detail slot 3 -->
           </div>
         </div>
       </div>
     </aside>
     <section class="grid-section-two">
-      <!-- slot detail 4 -->
       <div class="slot-container">
         <div id="slot-detail-4">
-          <!-- 📌 pin // gpt detail slot 4 -->
+          <!-- 📦 :BUNDLE: 👇 :HINT: Display block for "slot-detail-4". -->
           <script>
             googletag.cmd.push(function() {
               googletag.display('slot-detail-4');
             });
           </script>
-          <!-- 🔚 pin_end // gpt detail slot 4 -->
         </div>
       </div>
     </section>

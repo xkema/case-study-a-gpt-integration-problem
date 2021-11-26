@@ -6,28 +6,18 @@
   <meta name="description" content="A case study to integrate GPT library to a website as a 3rd-party javascript library">
   <meta itemprop="layout" content="homepage">
   <title>Homepage | Case Study - A GPT Integration Problem</title>
-  <link rel="icon" href="../assets/favicons/favicon-03-with-gpt-inline-mocked.png" type="image/x-icon">
+  <link rel="icon" href="../assets/favicons/favicon-04-with-webpack-applicant.png" type="image/x-icon">
   <link rel="stylesheet" href="../assets/normalize.css">
   <link rel="stylesheet" href="../assets/style.css">
   <script src="../assets/site.js"></script>
-  <!-- 👇 :HINT: With this global flag, mock behaviour will always enable. -->
-  <script>window['H0rWrXR3crg'] = { gptMockEnabled: true };</script>
-  <script src="../assets/gpt-mock.js"></script>
-  <script>
-    googletag.cmd.push(() => {
-      googletag.pubads().addEventListener('slotRenderEnded', (event) => {
-        console.log(`%cdebug ::`, `color:blue;font-weight:bold;`, `${event.slot.getAdUnitPath()}:${!event.isEmpty} - div: #${event.slot.getSlotElementId()} - size: ${event.size.join('x')}`);
-      });
-    });
-  </script>
-  <script>
-    googletag.cmd.push(function() {
-      googletag.defineSlot('/567914328/case-study-2021/homepage', [970, 250], 'slot-home-1').addService(googletag.pubads());
-      googletag.defineSlot('/567914328/case-study-2021/homepage', [300, 250], 'slot-home-2').addService(googletag.pubads());
-      googletag.defineSlot('/567914328/case-study-2021/homepage', [728, 90], 'slot-home-3').addService(googletag.pubads());
-      googletag.enableServices();
-    });
-  </script>
+  <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+  <script>window.googletag = window.googletag || { cmd: [] };</script>
+  <!-- 📌 :PIN: Enable this to activate mock module without a URL paramater -->
+  <!-- <script>window['H0rWrXR3crg'] = { gptMockEnabled: true };</script> -->
+  <!-- 📌 :PIN: Enable mock module if you want to use an ad blocker -->
+  <!-- <script src="../assets/gpt-mock.js"></script> -->
+  <!-- 📌 :PIN: insert your webback bundle here -->
+  <!-- <script src="path/to/your/webpack/bundle/js"></script> -->
 </head>
 <body>
   <div class="grid-container-home">
@@ -40,13 +30,7 @@
     </header>
     <section class="grid-section-one">
       <div class="slot-container">
-        <div id="slot-home-1">
-          <script>
-            googletag.cmd.push(function() {
-              googletag.display('slot-home-1');
-            });
-          </script>
-        </div>
+        <div id="slot-home-1"><!-- 📌 :PIN: Use this div to inject "#slot-home-1" --></div>
       </div>
     </section>
     <section class="grid-slider">
@@ -59,13 +43,7 @@
     <aside class="grid-aside">
       <div class="aside-section-one">
         <div class="slot-container">
-          <div id="slot-home-2">
-            <script>
-              googletag.cmd.push(function() {
-                googletag.display('slot-home-2');
-              });
-            </script>
-          </div>
+          <div id="slot-home-2"><!-- 📌 :PIN: Use this div to inject "#slot-home-2" --></div>
         </div>
       </div>
       <div class="aside-section-content">
@@ -77,13 +55,7 @@
     </section>
     <section class="grid-section-two">
       <div class="slot-container">
-        <div id="slot-home-3">
-           <script>
-            googletag.cmd.push(function() {
-              googletag.display('slot-home-3');
-            });
-          </script>
-        </div>
+        <div id="slot-home-3"><!-- 📌 :PIN: Use this div to inject "#slot-home-3" --></div>
       </div>
     </section>
     <footer class="grid-footer">

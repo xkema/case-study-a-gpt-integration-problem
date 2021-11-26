@@ -7,7 +7,7 @@
    height="32"
    width="32"
    sodipodi:docname="favicon-template.svg"
-   inkscape:export-filename="/Users/office/Github/case-study-a-gpt-implementation-problem/docs/assets/favicons/favicon-00-initial.png"
+   inkscape:export-filename="/Users/office/Github/case-study-a-gpt-implementation-problem/docs/assets/favicons/favicon-05-with-webpack-applicant.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -25,13 +25,13 @@
      inkscape:window-y="25"
      inkscape:window-x="0"
      inkscape:window-height="1387"
-     inkscape:window-width="2376"
+     inkscape:window-width="2560"
      inkscape:pagecheckerboard="false"
      width="320px"
      units="px"
      showgrid="true"
      inkscape:document-rotation="0"
-     inkscape:current-layer="layer4"
+     inkscape:current-layer="g932"
      inkscape:document-units="px"
      inkscape:cy="17.229167"
      inkscape:cx="20.9375"
@@ -155,13 +155,27 @@
      id="g6869"
      inkscape:groupmode="layer"
      inkscape:label="04-with-webpack"
-     style="display:inline">
+     style="display:none">
     <path
        id="path6867"
        style="display:inline;fill:#80ff80;fill-opacity:1;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.79375, 0.264583;paint-order:stroke markers fill"
        d="M 4.7624999,4.7624999 C 6.8791665,2.6458333 8.4666665,2.8222227 8.4666665,4.2333338 c 0,3.1749994 -1.0583333,4.2333327 -4.2333332,4.2333327 -1.4111111,0 -1.5875,-1.5874999 0.5291666,-3.7041666 z"
        sodipodi:nodetypes="zssz"
        inkscape:export-filename="/Users/office/Github/case-study-a-gpt-implementation-problem/docs/assets/favicons/favicon-01-with-gpt-inline-mocked.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+  </g>
+  <g
+     id="g932"
+     inkscape:groupmode="layer"
+     inkscape:label="05-with-webpack-applicant"
+     style="display:inline">
+    <path
+       id="path930"
+       style="display:inline;fill:#ff0000;fill-opacity:1;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.79375, 0.264583;paint-order:stroke markers fill"
+       d="M 4.7624999,4.7624999 C 6.8791665,2.6458333 8.4666665,2.8222227 8.4666665,4.2333338 c 0,3.1749994 -1.0583333,4.2333327 -4.2333332,4.2333327 -1.4111111,0 -1.5875,-1.5874999 0.5291666,-3.7041666 z"
+       sodipodi:nodetypes="zssz"
+       inkscape:export-filename="/Users/office/Github/case-study-a-gpt-implementation-problem/docs/assets/favicons/favicon-05-with-webpack-applicant.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
   </g>
