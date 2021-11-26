@@ -76,6 +76,9 @@ if ((window.H0rWrXR3crg && window.H0rWrXR3crg.gptMockEnabled === true) || window
       }
     }
   }
+  // prevents further overrides of cmd array (uBlock Origin adblocker does it for safe cmd array resolutions without ads) 
+  // this will cause an expection thrown by browser extensions like: Uncaught TypeError: Cannot assign to read only property 'cmd' of object '#<Object>'
+  Object.defineProperty(gptMock, 'cmd', { writable: false });
   // replace "googletag" object with mock
   window.googletag = gptMock
 }
