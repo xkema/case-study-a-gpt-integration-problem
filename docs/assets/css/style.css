@@ -18,10 +18,10 @@ h1, h2, h3, h4, h5, h6 { font-weight: 500; }
 code {
   font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   background-color: dimgray;
-  color: white;
+  color: whitesmoke;
   display: inline-block;
   padding: 1px 0.5rem;
-  font-size: 87.5%;
+  font-size: 75%;
   border-radius: 10px;
 }
 
