@@ -19,6 +19,12 @@
   <!-- 📦 :BUNDLE: 👇 :HINT: This block logs ad responses from Ad Manager for each ad slot on the page. -->
   <script>
     googletag.cmd.push(() => {
+      googletag.pubads().setPrivacySettings({
+        limitedAds: true,
+        nonPersonalizedAds: true,
+        restrictDataProcessing: true
+      });
+      googletag.pubads().setCookieOptions(1);
       googletag.pubads().addEventListener('slotRenderEnded', (event) => {
         console.log(`%cdebug ::`, `color:blue;font-weight:bold;`, `${event.slot.getAdUnitPath()}:${!event.isEmpty} - div: #${event.slot.getSlotElementId()} - size: ${event.size.join('x')}`);
       });
