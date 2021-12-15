@@ -1,0 +1,57 @@
+<svg width="840" height="120" version="1.1" viewBox="0 0 222.2 31.75" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <marker id="Arrow2Mstart" overflow="visible" orient="auto">
+   <path transform="scale(.6)" d="m8.719 4.034-10.93-4.018 10.93-4.018c-1.745 2.372-1.735 5.617-6e-7 8.035z" fill="context-stroke" fill-rule="evenodd" stroke="context-stroke" stroke-linejoin="round" stroke-width=".625"/>
+  </marker>
+  <marker id="Arrow2Mend" overflow="visible" orient="auto">
+   <path transform="scale(-.6)" d="m8.719 4.034-10.93-4.018 10.93-4.018c-1.745 2.372-1.735 5.617-6e-7 8.035z" fill="context-stroke" fill-rule="evenodd" stroke="context-stroke" stroke-linejoin="round" stroke-width=".625"/>
+  </marker>
+  <linearGradient id="linearGradient2368" x2="222.2" y1="-8.819" y2="-8.819" gradientTransform="scale(1 1.5)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#00aa88" offset="0"/>
+   <stop stop-color="#44aa00" offset=".2262"/>
+   <stop stop-color="#aad400" offset=".622"/>
+   <stop stop-color="#0000ff" offset="1"/>
+  </linearGradient>
+  <clipPath id="clipPath5579">
+   <path d="m156.1 13.23-1.323 2.646h2.646zm0-10.58 1.323-2.646h-2.646zm-134.9-2e-7 1.323-2.646h-2.646zm-2e-6 10.58-1.323 2.646h2.646z" display="none" fill="#800000"/>
+   <path class="powerclip" d="m-5-5h232.2v25.87h-232.2zm161.1 18.23-1.323 2.646h2.646zm0-10.58 1.323-2.646h-2.646zm-134.9-2e-7 1.323-2.646h-2.646zm-2e-6 10.58-1.323 2.646h2.646z" fill="#800000"/>
+  </clipPath>
+ </defs>
+ <g>
+  <path x="1.7930365e-08" y="-3.0079641e-14" width="222.25" height="15.874998" d="m1.793e-8 0h222.2v15.87h-222.2z" clip-path="url(#clipPath5579)" fill="url(#linearGradient2368)" style="paint-order:stroke markers fill"/>
+ </g>
+ <g display="none"></g>
+ <g>
+  <g transform="translate(.04498 .7973)" fill="#ffffff" font-family="'Helvetica Neue'" font-size="7.056px" font-weight="bold" stroke="#4d4d4d" stroke-width=".2646">
+   <text x="6.7645741" y="9.6625462" style="line-height:1.25" xml:space="preserve"><tspan x="6.7645741" y="9.6625462" fill="#ffffff" font-family="'Helvetica Neue'" font-size="7.056px" font-weight="bold" stroke="#4d4d4d" stroke-width=".2646">A</tspan></text>
+   <text x="47.782394" y="9.6680584" style="line-height:1.25" xml:space="preserve"><tspan x="47.782394" y="9.6680584" fill="#ffffff" font-family="'Helvetica Neue'" font-size="7.056px" font-weight="bold" stroke="#4d4d4d" stroke-width=".2646">B1</tspan></text>
+   <text x="118.16405" y="9.7025089" style="line-height:1.25" xml:space="preserve"><tspan x="118.16405" y="9.7025089" fill="#ffffff" font-family="'Helvetica Neue'" font-size="7.056px" font-weight="bold" stroke="#4d4d4d" stroke-width=".2646">B2</tspan></text>
+   <text x="210.52411" y="9.6625462" style="line-height:1.25" xml:space="preserve"><tspan x="210.52411" y="9.6625462" fill="#ffffff" font-family="'Helvetica Neue'" font-size="7.056px" font-weight="bold" stroke="#4d4d4d" stroke-width=".2646">C</tspan></text>
+  </g>
+ </g>
+ <g>
+  <rect x="22.49" y="18.52" width="132.3" height="13.23" rx="6.615" ry="6.615" fill="#ececec" stroke="#4d4d4d" stroke-dasharray="0.26458332,0.13229166" stroke-width=".1323"/>
+ </g>
+ <g>
+  <g transform="translate(1.577 -.07526)">
+   <g font-family="'Helvetica Neue'" font-weight="bold" stroke-width=".1323">
+    <text x="74.915154" y="26.52689" fill="#4d4d4d" font-size="4.939px" style="line-height:1.25" xml:space="preserve"><tspan x="74.915154" y="26.52689" fill="#4d4d4d" font-family="'Helvetica Neue'" font-size="4.939px" font-weight="bold" stroke-width=".1323">focus type</tspan></text>
+    <text x="29.893402" y="26.375824" fill="#000000" font-size="4.233px" style="line-height:1.25" xml:space="preserve"><tspan x="29.893402" y="26.375824" fill="#000000" font-family="'Helvetica Neue'" font-size="4.233px" font-weight="bold" stroke-width=".1323">problem</tspan></text>
+    <text x="127.84789" y="26.598076" fill="#000000" font-size="4.233px" style="line-height:1.25" xml:space="preserve"><tspan x="127.84789" y="26.598076" fill="#000000" font-family="'Helvetica Neue'" font-size="4.233px" font-weight="bold" stroke-width=".1323">solution </tspan></text>
+   </g>
+   <path d="m68.81 25.28h-15.88" fill="#1a1a1a" marker-end="url(#Arrow2Mend)" stroke="#4d4d4d" stroke-dasharray="0.324047, 0.648094" stroke-width=".324"/>
+   <path d="m121.4 25.28h-15.88" fill="#1a1a1a" marker-start="url(#Arrow2Mstart)" stroke="#4d4d4d" stroke-dasharray="0.324047, 0.648095" stroke-width=".324"/>
+  </g>
+ </g>
+ <g display="none">
+  <g transform="translate(-.2649 -.08822)">
+   <g font-family="'Helvetica Neue'" font-weight="bold" stroke-width=".1323">
+    <text x="71.393608" y="26.598032" display="inline" fill="#4d4d4d" font-size="4.939px" style="line-height:1.25" xml:space="preserve"><tspan x="71.393608" y="26.598032" fill="#4d4d4d" font-family="'Helvetica Neue'" font-size="4.939px" font-weight="bold" stroke-width=".1323">geliştirici eğilimi</tspan></text>
+    <text x="39.727417" y="24.908247" display="inline" fill="#000000" font-size="4.233px" text-align="center" text-anchor="middle" style="line-height:0.85" xml:space="preserve"><tspan x="39.727417" y="24.908247" text-align="center">problem</tspan><tspan x="39.727417" y="28.506577" text-align="center">odaklı</tspan></text>
+    <text x="139.64975" y="24.908247" display="inline" fill="#000000" font-size="4.233px" text-align="center" text-anchor="middle" style="line-height:0.85" xml:space="preserve"><tspan x="139.64975" y="24.908247" text-align="center">çözüm</tspan><tspan x="140.23679" y="28.506577" text-align="center">odaklı </tspan></text>
+   </g>
+   <path d="m65.19 25.13h-10.58" display="inline" fill="#1a1a1a" marker-end="url(#Arrow2Mend)" stroke="#4d4d4d" stroke-dasharray="0.264583, 0.529167" stroke-width=".2646"/>
+   <path d="m126.2 25.14h-10.58" display="inline" fill="#1a1a1a" marker-start="url(#Arrow2Mstart)" stroke="#4d4d4d" stroke-dasharray="0.264583, 0.529168" stroke-width=".2646"/>
+  </g>
+ </g>
+</svg>
