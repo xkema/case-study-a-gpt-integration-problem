@@ -1,17 +1,13 @@
 # Hızlı Başlangıç
 
-> ---
->
-> :information_source: Bu doküman, detayları atlayıp hızlıca kodlamaya başlayabilmek için hızlı başlangıç rehberi. <!--Eğer domain bilgin yoksa, [diğer dokümanları](./ "/guidelines/tr/") okuduktan sonra kodlamaya başlamak daha doğru bir pratik. -->
->
-> ---
+> - - -
+> ℹ️ Bu doküman, detayları atlayıp hızlıca kodlamaya başlayabilmek için hızlı başlangıç rehberi. Eğer domain bilgin yoksa, [diğer dokümanları](./ "/guidelines/tr/") okuduktan sonra kodlamaya başlamak daha doğru bir pratik.
+> - - -
 
-## Bağlantılar
-
-| Kaynak       | URL                                                          |
-| ------------ | ------------------------------------------------------------ |
-| GitHub       | https://github.com/xkema/case-study-a-gpt-integration-problem/ |
-| GitHub Pages | https://xkema.github.io/case-study-a-gpt-integration-problem/ |
+| Kaynak       | URL                                                             |
+| :----------- | :-------------------------------------------------------------- |
+| GitHub       | https://github.com/xkema/case-study-a-gpt-integration-problem/  |
+| GitHub Pages | https://xkema.github.io/case-study-a-gpt-integration-problem/   |
 | GPT          | https://developers.google.com/publisher-tag/guides/get-started/ |
 
 ## İş Tanımı
@@ -29,7 +25,7 @@
 
 ## Diğer Notlar
 
-- Hazırlayacağın bundle için kuracağın projeyi en başta hazırlayabilir ya da üstte klonladığın repo'yu başlangıç olarak kullanabilirsin.
+- Hazırlayacağın bundle için kuracağın projeyi en baştan hazırlayabilir ya da üstte klonladığın repo'yu başlangıç olarak kullanabilirsin.
 - `02-*` ve `04-*`'le başlayan örneklerde, kod içinde yardımcı işaretçiler var. 👇 :HINT: ve 📌 :PIN:, dikkat etmen gereken yerleri, 📦 :BUNDLE: ise hazırlayacağın 3rd-party ürünün içine gitmesi gereken kod parçalarını gösteriyor.
 - GPT kütüphanesinin kendisini, [gpt.js](https://securepubads.g.doubleclick.net/tag/js/gpt.js "Google Publisher Tag"), bundle'ın içine taşımaya gerek yok. Sadece reklam tanımlama ve gösterme etkinliğinin taşınması yeterli.
 - Burada beklenen bir web sitesi tasarlamak değil, <u>bir 3rd-party JavaScript reklam kütüphanesi hazırlamak</u> ve bunu `04-*` örneğinde çalışır hâle getirmek.

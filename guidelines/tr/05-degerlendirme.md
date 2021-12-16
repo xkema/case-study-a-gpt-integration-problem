@@ -1,6 +1,10 @@
 # Değerlendirme
 
-Değerlendirme geleneksel bir "**notlama**" yaklaşımıyla değil bir "**eşleşme**" yaklaşımıyla yapılıyor. Örnek çalışma değerlendirmesi ve görüşme soruları da proje yapısı ile geliştirici arasındaki benzerlikleri/farkları ortaya çıkartmak peşinde. Özetle yetenek ölçme gibi bir amaç ve iddiamız yok.
+> - - -
+> ℹ️ Bu doküman değerlendirmenin nasıl yapılacağına dair bilgileri içeriyor.
+> - - -
+
+Değerlendirme geleneksel bir "**notlama**" yaklaşımıyla değil bir "**eşleşme**" yaklaşımıyla yapılıyor. Örnek çalışma değerlendirmesi ve görüşme soruları da proje yapısı ile geliştirici arasındaki benzerlikleri/farkları ortaya çıkartmak peşinde. Özetle yetenek ölçme gibi bir amaç ve iddiası yok.
 
 Geliştiriciden beklentimiz, alttaki ölçekteki `B1`-`B2` aralığında bir eşleşme sağlaması. Bunu ölçerken; hem örnek çalışmanın teknik incelemesinden yaptığımız çıkarımları, hem "Genel Sorular"'ı ne kadar yanıtlayabildiğini, hem de görüşme sırasında sorulan sorulara verilen yanıtları değerlendiriyoruz.
 
@@ -12,7 +16,7 @@ Geliştiriciden beklentimiz, alttaki ölçekteki `B1`-`B2` aralığında bir eş
 
 Daha anlaşılır olmak adına, eşleşme ölçeğinin açıklamaları kısaca şu şekilde:
 
-- `A1`: Problemin tanımına göre uygun olan davranış biçimini seçebilen geliştiriciler.
+- `A`: Problemin tanımına göre uygun olan davranış biçimini seçebilen geliştiriciler.
 - `B1`-`B2`: Doğal durumda davranış biçimi problem odaklı veya çözüm odaklı olan geliştiriciler.
 - `C`: Bu eşleşme ölçeğinin kapsamında olmayan geliştiriciler.
 
@@ -25,11 +29,11 @@ Daha anlaşılır olmak adına, eşleşme ölçeğinin açıklamaları kısaca �
   - Problem
 - [ ] Ortak çalışma kültürü
   - Hatalarını kabul edebilme
-  - Diğer geliştiricileri düşünerek hareket etme (basit yönlendirici dokümanlar hazırlama)
+  - Diğer geliştiricileri düşünerek hareket etme (*basit yönlendirici dokümanlar hazırlama*)
   - Git kullanımı
   - İsimlendirme geleneği kullanımı
 - [ ] Anlaşılır olmayı zekice çözümler üretmeye tercih etme
-  - Kod içi yorumlarla diğer geliştiricileri yönlendirme
+  - Kod içi yorumlar ve otomatik dokümantasyon etiketlerini kullanma
   - Anlaşılır değişken ve fonksiyon isimleri kullanma
   - Anlaşılması zor/hileli kısayollardan kaçınma
 - [ ] Soyutlama ve modüler tasarım yeteneği
@@ -39,5 +43,5 @@ Daha anlaşılır olmak adına, eşleşme ölçeğinin açıklamaları kısaca �
   - Ölçeklenebilirlik kaygısı
   - Yazılan koda hakimiyet ve yazdığı kodu açıklayabilme
   - Proje çatısının kurma ve dosya organizasyonu
-  - Meta bilgi farkındalığı (açıklama, isimlendirme alanlarını kullanma)
+  - Meta bilgi farkındalığı (*açıklama, isimlendirme alanlarını kullanma*)
   - İstenen görevi yapma ve onu ortaya çıkan ürünü doğrulama yeteneği
